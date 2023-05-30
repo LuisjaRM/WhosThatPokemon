@@ -29,7 +29,7 @@ export const Pokemon = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     setShow(!show);
-    setAnswer(event.target.elements.search.value);
+    setAnswer(event.target.elements.search.value.toLowerCase());
     event.target.elements.search.value = "";
     setIsDisabled(true);
   };
