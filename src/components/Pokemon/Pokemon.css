@@ -60,3 +60,15 @@
   color: crimson;
   box-shadow: 2px 2px 10px black;
 }
+
+.pokemon-card .button-send {
+  margin-left: 0.5rem;
+  padding: 0 0.25rem;
+  height: 24px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: bisque;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px 10px black;
+}

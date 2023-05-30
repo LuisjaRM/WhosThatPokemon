@@ -78,6 +78,8 @@ export const Pokemon = () => {
                 className="answer"
               />
             )}
+
+            <button className="button-send">Send</button>
           </label>
         </form>
 
